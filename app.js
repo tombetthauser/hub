@@ -2,13 +2,14 @@ var t = (Math.random() * 600) + 100;
 var a = ["http://www.tombetthauser.com/numbers", "http://www.tombetthauser.com/sad"];
 var l = (a.length) - 1;
 var x = Math.round(Math.random() * l);
-var ca = ["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"];
+var ca = ["0","1","2","3","4","5","6"];
+// var ca = ["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"];
 var nca = ["0","1","2","3","4","5","6"];
 var cal = ca.length - 1;
 var ncal = nca.length - 1;
 var cs = "#";
 var ker = Math.random()
-var colorChance = .1;
+var colorChance = .7;
 
 if(ker <= colorChance){
 	colors();
