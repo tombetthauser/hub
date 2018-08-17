@@ -1,4 +1,4 @@
-var t = (Math.random() * 600) + 100;
+var t = (Math.random() * 500) + 500;
 var a = ["http://www.tombetthauser.com/numbers", "http://www.studioartsdirectory.com/feed.html"];
 var l = (a.length) - 1;
 var x = Math.round(Math.random() * l);
