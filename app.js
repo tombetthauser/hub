@@ -1,4 +1,4 @@
-var t = (Math.random() * 100) + 50;
+var t = (Math.random() * 600) + 100;
 var a = ["http://www.tombetthauser.com/numbers", "http://www.tombetthauser.com/sad"];
 var l = (a.length) - 1;
 var x = Math.round(Math.random() * l);
@@ -15,6 +15,10 @@ if(ker <= colorChance){
 } else {
 	notColors();
 }
+
+setTimeout(function(){
+	window.location = a[x];
+},t)
 
 function colors(){
 	setInterval(function(){
