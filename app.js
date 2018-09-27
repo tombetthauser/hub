@@ -1,7 +1,7 @@
 var t = (Math.random() * 500) + 500;
 var a = [
 	"https://tombetthauser.github.io/numbers/", 
-	"https://tombetthauser.github.io/arthistory/", 
+	"https://tombetthauser.github.io/arthistory2/", 
 	"http://www.studioartsdirectory.com/feed.html"
 	];
 var l = (a.length) - 1;
