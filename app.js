@@ -1,8 +1,8 @@
 var t = (Math.random() * 500) + 500;
 var a = [
-	"http://www.tombetthauser.com/numbers", 
+	"http://www.tombetthauser.com/link/numbers", 
+	"http://www.tombetthauser.com/link/arthistory2", 
 	"http://www.studioartsdirectory.com/feed.html"
-	// "http://www.studioartsdirectory.com/figures.html"
 	];
 var l = (a.length) - 1;
 var x = Math.round(Math.random() * l);
