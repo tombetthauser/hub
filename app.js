@@ -4,7 +4,7 @@ var a = [
 	"https://tombetthauser.github.io/anchorage-museum/", 
 	"https://tombetthauser.github.io/walk/",
 	"https://tombetthauser.github.io/symbols/",
-	"http://www.studioartsdirectory.com/feed.html"
+	"https://tombetthauser.github.io/sad/feed.html"
 	];
 var l = (a.length) - 1;
 var x = Math.round(Math.random() * l);
